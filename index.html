@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <title>Practice Javascript</title>
+  </head>
+
+  <body>
+
+
+
+<div id="demo">
+  <input class="" type="text" id="inputTask">
+
+  <button  id="btn">Cheak</button>
+
+  <p></p>
+
+
+</div>
+
+<script>
+document.querySelector('#btn').addEventListener('click', function(){
+var pass = 'shakil333';
+var a = document.querySelector('#inputTask');
+
+if (pass == a.value){
+  document.querySelector('#demo p').innerHTML = '<font color = "green">Password Matched</font>';
+}else{
+  document.querySelector('#demo p').innerHTML = '<font color = "red">Password not Matched</font>';
+}
+
+
+})
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- custom.js link here -->
+    <script src="custom.js"></script>
+  </body>
+</html>
